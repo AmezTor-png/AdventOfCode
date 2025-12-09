@@ -1,5 +1,7 @@
 Código correspondiente al día 8 del Advent of Code.
 
+Pendiente aún de traducirse a C++.
+
 El código esta realizado en JavaScript, con el objetivo de entender y comprender el funcionamiento que debe tener el programa final.
 Se ha realizado primeramente en este lenguaje puesto que es en el que más especializados estamos.
 
