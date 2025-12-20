@@ -9,3 +9,11 @@ Se han implementado dos estructuras de datos, `Nodo` (definidas las coordenadas 
 Se ha introducido también la clase `Grafo`, que calcula todas las conexiones posibles entre los diferentes nodos, y lo almacena en vector (tablaConexiones).
 
 Para finalizar, se ha implementado la clase `Circuito`, que sigue un algoritmo **Union-Find**, el más adecuado dada la naturaleza del problema. Las variables consisten de, un vector de enteros **padre** que indica el nodo padre del circuito al que pertenece (siendo inicialmente cada nodo su padre, indicado en el constructor), y un vector de enteros **tamanyo** que indica el tamaño de cada circuito. Los métodos consisten de: `Circuito(int n)`, el constructor; `encontrar(int nodox)`, para encontrar el verdadero padre del circuito; `migrar(int nodo1, int nodo2)`, para migrar nodo2 a nodo1, cambiando el padre de nodo2 y actualizando el tamaño de nodo1; y `getTamanyo()`, que devuelve los tamaños de los nodos que son padres, que en el main se ordenan para sacar la solución.
+
+## Compilación.
+Estando en un directorio con todos los archivos.
+`g++ -o main main.cpp Day8.h Day8.cpp` -> Compilar
+`./main` -> Ejecutar (abre el archivo inputD8.txt)
+
+## Valoración personal.
+Hemos pulido y entendido al completo la implementación de Grafos en problemas con Nodos. También hemos descubierto el algoritmo Union-Find, el cual ha sido idóneo para este problema.
