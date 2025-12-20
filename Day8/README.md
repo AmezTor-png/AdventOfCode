@@ -13,9 +13,7 @@ Para finalizar, se ha implementado la clase `Circuito`, que sigue un algoritmo *
 ## Compilación.
 Estando en un directorio con todos los archivos.
 
-
 `g++ -o main main.cpp Day8.h Day8.cpp` -> Compilar
-
 `./main` -> Ejecutar (abre el archivo inputD8.txt)
 
 ## Valoración personal.
