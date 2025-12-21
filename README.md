@@ -1,9 +1,9 @@
 # Repositorio del Advent of Code.
 
 ## Entregables.
-- Day5 -> Árboles.
-- Day8 -> Grafos.
-- Day9 -> Tablas Hash.
+- Day5
+- Day8
+- Day9
 
 ## Miembros.
 Iván Tortajada Amézcua.
