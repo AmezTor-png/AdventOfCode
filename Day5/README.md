@@ -13,7 +13,7 @@ Se han implementado las siguientes estructuras y conceptos:
 De las funciones principales destacan: `insert(IntervalNode* root, long long l, long long h)`, que inserta un nuevo rango en el árbol, y `contains(IntervalNode* root, long long id)`, que devuelve true si el ID pertenece a algún rango.
 
 ## Compilación.
-`g++ -std=c++17 -o parte2 parte2_dia5.cpp` -> Compilar
+`g++ -std=c++17 -o main main.cpp` -> Compilar
 
 `./main` -> Ejecutar (abre el archivo input.txt)
 
