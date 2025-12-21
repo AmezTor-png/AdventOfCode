@@ -8,7 +8,7 @@ Se han implementado las siguientes estructuras y conceptos:
 
 `struct IntervalNode`: cada nodo representa un rango de IDs (low, high). Tiene punteros a left y right para construir el árbol de intervalos.
 
-**Árbol de Intervalos**: Permite almacenar todos los rangos de ingredientes frescos de manera jerárquica. Para cada ID, se recorre el árbol recursivamente para determinar si está contenido en algún rango.
+**Árbol de Intervalos**: permite almacenar todos los rangos de ingredientes frescos de manera jerárquica. Para cada ID, se recorre el árbol recursivamente para determinar si está contenido en algún rango.
 
 De las funciones principales destacan: `insert(IntervalNode* root, long long l, long long h)`, que inserta un nuevo rango en el árbol, y `contains(IntervalNode* root, long long id)`, que devuelve true si el ID pertenece a algún rango.
 
