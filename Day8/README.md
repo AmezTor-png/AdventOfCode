@@ -17,5 +17,8 @@ Estando en un directorio con todos los archivos.
 
 `./main` -> Ejecutar (abre el archivo inputD8.txt)
 
+## Alternativas.
+Tras varios planteaminentos de como solucionar el problema, y una primera aproximación vaga a la idea en JavaScript (lengauje que más dominamos), llegamos a la conclusión de que Grafos era la mejor manera de abordar el problema.
+
 ## Valoración personal.
 Hemos pulido y entendido al completo la implementación de Grafos en problemas con Nodos. También hemos descubierto el algoritmo Union-Find, el cual ha sido idóneo para este problema.
